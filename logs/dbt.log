@@ -1,0 +1,35 @@
+
+
+============================== 2022-06-21 01:21:15.352731 | 7045bd3c-7576-4c8f-948a-e9804fd5df0c ==============================
+01:21:15.352731 [info ] [MainThread]: Running with dbt=1.0.1
+01:21:15.353164 [debug] [MainThread]: running dbt with arguments Namespace(record_timing_info=None, debug=None, log_format=None, write_json=None, use_colors=None, printer_width=None, warn_error=None, version_check=None, partial_parse=None, single_threaded=False, use_experimental_parser=None, static_parser=None, profiles_dir='/Users/chiedozie/.dbt', send_anonymous_usage_stats=None, fail_fast=None, event_buffer_size=None, project_dir=None, profile=None, target=None, vars='{}', log_cache_events=False, project_name=None, skip_profile_setup=False, defer=None, state=None, cls=<class 'dbt.task.init.InitTask'>, which='init', rpc_method=None)
+01:21:15.353406 [debug] [MainThread]: Tracking: tracking
+01:21:15.371840 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ca88d60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ca88670>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ca889d0>]}
+01:22:31.251542 [debug] [MainThread]: Starter project path: /usr/local/Cellar/dbt-redshift@1.0.0/1.0.0_1/libexec/lib/python3.9/site-packages/dbt/include/starter_project
+01:27:46.548469 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ca27c10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ca88400>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ca88d30>]}
+
+
+============================== 2022-06-21 01:50:23.717611 | 3ef4ef34-8130-404c-b958-d243e4782496 ==============================
+01:50:23.717622 [info ] [MainThread]: Running with dbt=1.1.0
+01:50:23.717985 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/chiedozie/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+01:50:23.718140 [debug] [MainThread]: Tracking: tracking
+01:50:23.736994 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10bd85bb0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10bd857f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10bd85b20>]}
+01:51:15.657451 [debug] [MainThread]: Starter project path: /usr/local/Cellar/dbt-bigquery/1.1.0/libexec/lib/python3.9/site-packages/dbt/include/starter_project
+01:53:15.653132 [info ] [MainThread]: Profile ae_recruitment_sandbox written to /Users/chiedozie/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+01:53:15.653628 [info ] [MainThread]: 
+Your new dbt project "ae_recruitment_sandbox" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+01:53:15.653965 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10bd791c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10bd790d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10bd79220>]}
